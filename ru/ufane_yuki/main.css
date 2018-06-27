@@ -5,3 +5,11 @@ body {
 .centered {
     text-align: center;
 }
+
+.green {
+    color: green;
+}
+
+.prohibited {
+    color: red;
+}
