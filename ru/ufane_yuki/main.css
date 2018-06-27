@@ -1,7 +1,9 @@
 body {
     background-color: gray;
+    font-family: 'Roboto', sans-serif;
 }
 
 .centered {
-    position: center;
+    text-align: center;
+    font-family: 'Roboto Thin', sans-serif
 }
