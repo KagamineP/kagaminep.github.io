@@ -1,0 +1,35 @@
+/* TODO: Change the color */
+html {
+  background-color: #1c132b;
+}
+
+body {
+  padding-top: 55px;
+  font-family: Verdana, SegoeUI, Helvetica, sans-serif;
+  text-align: center;
+  line-height: 1.4em;
+  color: #f2eaff;
+}
+
+h1 {
+  font-size: 2.5em;
+  line-height: 1.1em;
+}
+
+p {
+  padding-bottom: 20px
+}
+
+p#small {
+  font-size: 0.7em;
+  color: #837799;
+  padding-bottom: 45px;
+}
+
+a {
+  color: #a187ba;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+
+/* NOTE: This stylesheet from arpasing.tubs.moe */
