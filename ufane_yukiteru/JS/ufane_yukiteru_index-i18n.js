@@ -193,7 +193,7 @@ $(function () {
                 "_index": "Halaman Utama",
                 "_header": "Ufane Yukiteru",
                 "_voicebank": "Voicebank",
-                "_header-overview": "* - Ikhtisar"
+                "_header-overview": "* - Ikhtisar",
                 "_paragraph-overview": "Perpustakaan suara Ufane Yukiteru didasarkan pada sumber yang dihasilkan untuk alat sintesis bernyanyi UTAU → Situs resmi UTAU http://utau-synth.com/",
                 "_header-disclaimer": "Penolakan",
                 "_paragraph-disclaimer": "Kami tidak bertanggung jawab atas kerusakan yang disebabkan oleh penggunaan perpustakaan Ufane Yukiteru.",
