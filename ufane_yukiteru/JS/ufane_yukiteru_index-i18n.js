@@ -3,7 +3,7 @@
 	Re-created in Sublime Text
 	Last edit: 29.01.2019 in "Sublime Text"
 	by KagamineP (KagamiSoftware)
-    Upload to GitHub: KagamineP (https://github.com/KagamineP/)
+        Upload to GitHub: KagamineP (https://github.com/KagamineP/)
 
 	///////////////////////////////////////////
 	///////////// CHANGELOG ///////////////////
@@ -22,18 +22,18 @@
 	///////////////////////////////////////////////////////////////
 	// Some code optimization                                    //
 	// Idioma español fijo                                       //
-    // Deutsche Sprache hinzugefügt                              //
-    // Menambahkan bahasa Indonesia                              //
-    // Aggiunta lingua italiana                                  //
-    ///////////////////////////////////////////////////////////////
-    ///////////////////////////////////////////////////////////////
+        // Deutsche Sprache hinzugefügt                              //
+        // Menambahkan bahasa Indonesia                              //
+        // Aggiunta lingua italiana                                  //
+        ///////////////////////////////////////////////////////////////
+        ///////////////////////////////////////////////////////////////
 
-    ///////////////////////////////////////////////////////////////
+         ///////////////////////////////////////////////////////////////
 	////////////////////// 29.01.2019 /////////////////////////////
 	///////////////////////////////////////////////////////////////
 	// Recreation code                                           //
 	// Another code optimization                                 //
-    // Clone to GitHub                                           //
+        // Clone to GitHub                                           //
 	///////////////////////////////////////////////////////////////
 	///////////////////////////////////////////////////////////////
 */
@@ -221,7 +221,7 @@ $(function () {
         			return dictionary[key];
         		}
         	});
-        }
+        };
 
         $("#en").on("click", function () {
         	localStorage.setItem("lang", "english");
