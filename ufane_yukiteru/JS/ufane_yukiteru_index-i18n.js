@@ -263,12 +263,12 @@ $(function () {
         	set_lang(dictionary.deutsch);
         });
 
-        $("id".on("click", function () {
+        $("id").on("click", function () {
         	localStorage.setItem("lang", "indonesian");
         	set_lang(dictionary.indonesian);
         });
 
-        $("it".on("click", function () {
+        $("it").on("click", function () {
         	localStorage.setItem("lang", "italian");
         	set_lang(dictionary.italian);
         });
