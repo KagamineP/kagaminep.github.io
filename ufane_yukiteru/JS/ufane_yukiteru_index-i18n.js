@@ -296,5 +296,5 @@ $(function () {
         } else {
         	var getLanguage = localStorage.getItem('lang') || 'english';
         	set_lang(dictionary[getLanguage]);
-        }
+        };
 });
