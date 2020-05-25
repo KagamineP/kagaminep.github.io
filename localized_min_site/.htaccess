@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "This is a sketch of localized version of Min Browser web page."
+AuthUserFile "/var/www/u1036502/.htpasswds/public_html/kagaminep.ru/localized_min_site/passwd"
+require valid-user
