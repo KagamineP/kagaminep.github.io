@@ -1,5 +1,5 @@
 # kagaminep.github.io
 ![GitHub repo size](https://img.shields.io/github/repo-size/kagaminep/kagaminep.github.io)  
 
-Mirror of KagamineP's site.
-This mirror is an old HTML version of the KagamineP site since the main version of the site is moved to the WordPress engine.
+KagaminePのサイトのミラー。
+サイトのメインバージョンがWordPressエンジンに移動されたため、このミラーはKagaminePサイトの古いHTMLバージョンです。
