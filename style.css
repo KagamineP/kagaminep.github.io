@@ -1,0 +1,16 @@
+.centered {
+    text-align: center;
+}
+
+.green {
+    color: green;
+}
+
+.prohibited {
+    color: red;
+}
+
+.MessageToRusUTAU {
+    border: block;
+    outline: 2px solid #000;
+}
