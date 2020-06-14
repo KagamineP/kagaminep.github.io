@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/kagaminep
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://kagaminep.github.io
+  * I am kagaminep (https://keybase.io/kagaminep) on keybase.
+  * I have a public key ASCjjH9l8C4afI8OAb1NZiWRDIQcqICo3I0nyavbmd-oiQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120a38c7f65f02e1a7c8f0e01bd4d6625910c841ca880a8dc8d27c9abdb99dfa8890a",
+      "host": "keybase.io",
+      "kid": "0120a38c7f65f02e1a7c8f0e01bd4d6625910c841ca880a8dc8d27c9abdb99dfa8890a",
+      "uid": "9fd920b7c6bb56c0df0c87dd6f886319",
+      "username": "kagaminep"
+    },
+    "merkle_root": {
+      "ctime": 1592121334,
+      "hash": "72f71409edfa8da6c378e4584238e43c9a8843cdda8396f712ed98dce3824e9415bd2d3a41509c2cb5dc49926bcf74e391295a36f9ab1a934850c30b0891df5b",
+      "hash_meta": "fe12c22a81f23451a952fe8c1dcc558a49b9329d7ea453c7ad94516606507b59",
+      "seqno": 16659464
+    },
+    "service": {
+      "entropy": "Xty7UGlIp2F3FkeUiSETFN3q",
+      "hostname": "kagaminep.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.5.0"
+  },
+  "ctime": 1592121357,
+  "expire_in": 504576000,
+  "prev": "2f5b95846919a8f390efeb8212bcb58a0a7b43b07c0ca2a3c7f6036d1c608041",
+  "seqno": 10,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgo4x/ZfAuGnyPDgG9TWYlkQyEHKiAqNyNJ8mr25nfqIkKp3BheWxvYWTESpcCCsQgL1uVhGkZqPOQ7+uCEry1igp7Q7B8DKKjx/YDbRxggEHEIMwhxT4VafGaifANsf2uS2Md4TAcDSDiZWxHkAtZyhRsAgHCo3NpZ8RAk+LcXt8c0UaNRnIOoQlneUpuii/phBF19gZG0gDEzO9V2NTi2FTNHbbewXCadW9wVm81krmh81gtEcqj8RwpCKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIE5O1Jae6038vyVVwus0GlHNKk7mXRFA4S/Ym2nEDcVVo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/kagaminep
+
+==================================================================
