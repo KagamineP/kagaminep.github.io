@@ -1,7 +1,3 @@
 ## kagaminep.github.io
 
-Here is the [old HTML version](1) of the KagamineP [site](2), as well as his [portfolio](2).
-
-[1]: https://kagaminep.github.io/mirror
-[2]: https://kagaminep.ru/
-[3]: https://kagaminep.github.io/
+Here is the [old HTML version](https://kagaminep.github.io/mirror) of the KagamineP [site](https://kagaminep.ru/), as well as his [portfolio](https://kagaminep.github.io/).
