@@ -1,3 +1,4 @@
+<!-- Hello from 2010 :D -->
 ## kagaminep.github.io
 
 Just a mirror of simplified and old version of my website.  
