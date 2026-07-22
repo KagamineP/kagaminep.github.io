@@ -1,52 +1,303 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru" class="dark">
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Правила личных сообщений | KagamineP</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <!-- <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet"> -->
-    <!-- <script src="main.js"></script> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        kagaminep: {
+                            yellow: '#FFE600',
+                            gold: '#FFB700',
+                            dark: '#0F1117',
+                            card: '#181C26',
+                            border: '#2A3040'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        mono: ['JetBrains Mono', 'monospace'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
     <style>
-        .centered {
-            text-align: center;
+        body {
+            background-color: #0d0e12;
+            color: #e2e8f0;
+            font-family: 'Inter', sans-serif;
+            background-image: 
+                radial-gradient(circle at 50% 0%, rgba(255, 230, 0, 0.08) 0%, transparent 50%),
+                radial-gradient(circle at 80% 80%, rgba(16, 185, 129, 0.05) 0%, transparent 40%);
+            background-attachment: fixed;
+        }
+
+        /* Subtle grid background pattern */
+        .bg-grid {
+            background-size: 30px 30px;
+            background-image: 
+                linear-gradient(to right, rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+                linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+        }
+
+        /* Synth Equalizer Animated Bars */
+        .eq-bar {
+            animation: eqBounce 1.4s ease-in-out infinite alternate;
+        }
+        .eq-bar:nth-child(2) { animation-delay: 0.2s; }
+        .eq-bar:nth-child(3) { animation-delay: 0.4s; }
+        .eq-bar:nth-child(4) { animation-delay: 0.1s; }
+        .eq-bar:nth-child(5) { animation-delay: 0.5s; }
+
+        @keyframes eqBounce {
+            0% { height: 15%; }
+            100% { height: 100%; }
+        }
+
+        /* Card glow hover effects */
+        .glow-card-green:hover {
+            box-shadow: 0 0 25px -5px rgba(16, 185, 129, 0.25);
+            border-color: rgba(16, 185, 129, 0.5);
+        }
+        .glow-card-red:hover {
+            box-shadow: 0 0 25px -5px rgba(239, 68, 68, 0.25);
+            border-color: rgba(239, 68, 68, 0.5);
+        }
+        .glow-card-yellow:hover {
+            box-shadow: 0 0 25px -5px rgba(255, 230, 0, 0.2);
+            border-color: rgba(255, 230, 0, 0.4);
         }
     </style>
 </head>
-<body>
-    <h1 class="centered">Правила личных сообщений</h1>
-    <p>Доброго времени суток! Вы попали сюда по ссылке, которая была указана в личных сообщениях. Вот правила:</p>
-    <br>
-    <p class="green">Можно:</p>
-    <ul>
-        <li><p>Багрепортить голосовой пакет</p></li>
-        <li><p>Предлагать улучшения</p></li>
-        <li><p>Советовать новые движки синтеза вокала/ИИ</p></li>
-    </ul>
-    <br>
-    <p class="prohibited">Нельзя:</p>
-    <ul>
-        <li><p>Писать не по теме.</p></li>
-        <li><p>Оскорблять голосового провайдера и виртуального вокалиста.</p></li>
-        <li><p>Пытаться подшутить над голосовым провайдером, под предлогом «давай нарисую тебе арт»* и тому прочее.<b>**</b></p></li>
-        <li><p>Оскорблять кого-либо.</p></li>
-        <li><p>Спрашивать, есть ли у Даичи дизайн.</p></li>
-        <li><b<>Спрашивать у голосового провайдера про его личную жизнь</b></li>
-    </ul>
-    <br>
-    <p>*- У Даичи уже имеется официальный иллюстратор. С его творчеством вы можете ознакомиться забив в поиске Patatas и/или PatatasDraw</p>
-    <div class="centered">
-        <h1>СПЭШЛ колонка для RusUTAU</h1> <!-- Ахахахах, я та еще злопамятная сука -->
-    <p>**- Я помню тебя, Dd Nocebo (aka Маргарита Баум, aka Nia Skretch)!</p>
-    <p>Я никоим образом не знаком с Imocreator и никоим случаем не являюсь ее подсоской.</p>
-    <p>Кактуса у меня в жопе нет и не являюсь ни псом, ни пидорасом!</p>
-    <p>ЕБАТЬ ЭТО ЧЕ, МАРГАРИТА БАУМ?!))))))</p>
-    <iframe src="//vk.com/video_ext.php?oid=-23742946&id=456242969&hash=ad28de8fcf148d37&hd=1" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+<body class="min-h-screen flex flex-col justify-between bg-grid antialiased">
+
+    <div class="max-w-4xl mx-auto px-4 py-8 md:py-12 w-full">
+
+        <!-- Header / Hero Section -->
+        <header class="text-center mb-10 relative">
+            
+            <!-- Synth Vocal Wave Visual Accent -->
+            <div class="flex items-center justify-center gap-1.5 h-8 mb-4">
+                <span class="w-1 bg-kagaminep-yellow rounded-full eq-bar h-full"></span>
+                <span class="w-1 bg-kagaminep-yellow rounded-full eq-bar h-full"></span>
+                <span class="w-1 bg-kagaminep-yellow rounded-full eq-bar h-full"></span>
+                <span class="w-1 bg-kagaminep-yellow rounded-full eq-bar h-full"></span>
+                <span class="w-1 bg-kagaminep-yellow rounded-full eq-bar h-full"></span>
+            </div>
+
+            <!-- Avatar / Brand Tag -->
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-kagaminep-yellow/10 border border-kagaminep-yellow/30 text-kagaminep-yellow text-xs font-mono mb-3">
+                <i class="fa-solid fa-microphone-lines"></i>
+                <span>KAGAMINEP / VOICEBANK RULES</span>
+            </div>
+
+            <h1 class="text-3xl md:text-5xl font-extrabold text-white tracking-tight mb-4">
+                Правила личных сообщений
+            </h1>
+            
+            <p class="text-slate-400 text-base md:text-lg max-w-2xl mx-auto leading-relaxed">
+                Доброго времени суток! Вы попали сюда по ссылке, которая была указана в личных сообщениях. Пожалуйста, ознакомьтесь со сводом правил ниже:
+            </p>
+        </header>
+
+        <!-- Main Rules Grid -->
+        <main class="grid md:grid-cols-2 gap-6 mb-10">
+
+            <!-- ALLOWED CARD (ЗЕЛЕНЫЙ) -->
+            <section class="bg-kagaminep-card border border-slate-800 rounded-2xl p-6 transition-all duration-300 glow-card-green relative overflow-hidden flex flex-col justify-between">
+                <div class="absolute -top-12 -right-12 w-32 h-32 bg-emerald-500/10 rounded-full blur-2xl pointer-events-none"></div>
+                
+                <div>
+                    <div class="flex items-center gap-3 mb-6 pb-4 border-b border-slate-800">
+                        <div class="w-10 h-10 rounded-xl bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center text-emerald-400">
+                            <i class="fa-solid fa-circle-check text-xl"></i>
+                        </div>
+                        <div>
+                            <h2 class="text-xl font-bold text-white uppercase tracking-wide">Можно:</h2>
+                            <p class="text-xs text-emerald-400 font-mono">Приветствуется и разрешено</p>
+                        </div>
+                    </div>
+
+                    <ul class="space-y-4">
+                        <li class="flex items-start gap-3 text-slate-300 group">
+                            <i class="fa-solid fa-check text-emerald-400 mt-1 group-hover:scale-125 transition-transform"></i>
+                            <span class="text-sm md:text-base leading-snug">Багрепортить голосовой пакет</span>
+                        </li>
+                        <li class="flex items-start gap-3 text-slate-300 group">
+                            <i class="fa-solid fa-check text-emerald-400 mt-1 group-hover:scale-125 transition-transform"></i>
+                            <span class="text-sm md:text-base leading-snug">Предлагать улучшения</span>
+                        </li>
+                        <li class="flex items-start gap-3 text-slate-300 group">
+                            <i class="fa-solid fa-check text-emerald-400 mt-1 group-hover:scale-125 transition-transform"></i>
+                            <span class="text-sm md:text-base leading-snug">Советовать новые движки синтеза вокала / ИИ</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="mt-8 pt-4 border-t border-slate-800/60 text-xs text-slate-500 flex items-center gap-2">
+                    <i class="fa-solid fa-thumbs-up text-emerald-500/60"></i>
+                    <span>Конструктивный фидбек всегда в приоритете</span>
+                </div>
+            </section>
+
+            <!-- PROHIBITED CARD (КРАСНЫЙ) -->
+            <section class="bg-kagaminep-card border border-slate-800 rounded-2xl p-6 transition-all duration-300 glow-card-red relative overflow-hidden flex flex-col justify-between">
+                <div class="absolute -top-12 -right-12 w-32 h-32 bg-rose-500/10 rounded-full blur-2xl pointer-events-none"></div>
+
+                <div>
+                    <div class="flex items-center gap-3 mb-6 pb-4 border-b border-slate-800">
+                        <div class="w-10 h-10 rounded-xl bg-rose-500/10 border border-rose-500/30 flex items-center justify-center text-rose-400">
+                            <i class="fa-solid fa-ban text-xl"></i>
+                        </div>
+                        <div>
+                            <h2 class="text-xl font-bold text-white uppercase tracking-wide">Нельзя:</h2>
+                            <p class="text-xs text-rose-400 font-mono">Строго запрещено</p>
+                        </div>
+                    </div>
+
+                    <ul class="space-y-3.5">
+                        <li class="flex items-start gap-3 text-slate-300 group">
+                            <i class="fa-solid fa-xmark text-rose-400 mt-1 group-hover:scale-125 transition-transform"></i>
+                            <span class="text-sm md:text-base leading-snug">Писать не по теме.</span>
+                        </li>
+                        <li class="flex items-start gap-3 text-slate-300 group">
+                            <i class="fa-solid fa-xmark text-rose-400 mt-1 group-hover:scale-125 transition-transform"></i>
+                            <span class="text-sm md:text-base leading-snug">Оскорблять голосового провайдера и виртуального вокалиста.</span>
+                        </li>
+                        <li class="flex items-start gap-3 text-slate-300 group">
+                            <i class="fa-solid fa-xmark text-rose-400 mt-1 group-hover:scale-125 transition-transform"></i>
+                            <span class="text-sm md:text-base leading-snug">
+                                Пытаться подшутить над голосовым провайдером под предлогом «давай нарисую тебе арт»<span class="text-kagaminep-yellow font-bold">*</span> и тому прочее.<span class="text-purple-400 font-bold">**</span>
+                            </span>
+                        </li>
+                        <li class="flex items-start gap-3 text-slate-300 group">
+                            <i class="fa-solid fa-xmark text-rose-400 mt-1 group-hover:scale-125 transition-transform"></i>
+                            <span class="text-sm md:text-base leading-snug">Оскорблять кого-либо.</span>
+                        </li>
+                        <li class="flex items-start gap-3 text-slate-300 group">
+                            <i class="fa-solid fa-xmark text-rose-400 mt-1 group-hover:scale-125 transition-transform"></i>
+                            <span class="text-sm md:text-base leading-snug">Спрашивать, есть ли у Даичи дизайн.</span>
+                        </li>
+                        <li class="flex items-start gap-3 text-slate-300 group">
+                            <i class="fa-solid fa-xmark text-rose-400 mt-1 group-hover:scale-125 transition-transform"></i>
+                            <span class="text-sm md:text-base font-semibold text-rose-200 leading-snug">Спрашивать у голосового провайдера про его личную жизнь.</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="mt-6 pt-4 border-t border-slate-800/60 text-xs text-slate-500 flex items-center gap-2">
+                    <i class="fa-solid fa-shield-halved text-rose-500/60"></i>
+                    <span>Нарушения могут привести к мгновенному бану</span>
+                </div>
+            </section>
+
+        </main>
+
+        <!-- Footnotes & Details Card (*) -->
+        <section class="bg-kagaminep-card/80 border border-slate-800 rounded-2xl p-5 mb-10 backdrop-blur-sm glow-card-yellow transition-all">
+            <div class="flex items-start gap-4">
+                <div class="w-8 h-8 rounded-lg bg-kagaminep-yellow/10 border border-kagaminep-yellow/30 flex items-center justify-center text-kagaminep-yellow shrink-0 mt-0.5">
+                    <i class="fa-solid fa-paint-brush"></i>
+                </div>
+                <div class="text-sm text-slate-300 leading-relaxed">
+                    <span class="text-kagaminep-yellow font-bold mr-1">*Примечание:</span>
+                    У Даичи уже имеется официальный иллюстратор. С его творчеством вы можете ознакомиться, введя в поиске 
+                    <span class="inline-block px-2 py-0.5 rounded bg-slate-800 font-mono text-kagaminep-yellow border border-slate-700 text-xs">Patatas</span> 
+                    и/или 
+                    <span class="inline-block px-2 py-0.5 rounded bg-slate-800 font-mono text-kagaminep-yellow border border-slate-700 text-xs">PatatasDraw</span>.
+                </div>
+            </div>
+        </section>
+
+        <!-- Special RusUTAU Column (**) -->
+        <!-- Ахахахах, я та еще злопамятная сука -->
+        <section class="bg-slate-900/90 border border-purple-900/50 rounded-2xl p-6 mb-12 relative overflow-hidden shadow-2xl">
+            <div class="absolute top-0 right-0 px-4 py-1 bg-purple-900/50 border-b border-l border-purple-700/50 rounded-bl-xl text-[10px] font-mono text-purple-300 uppercase tracking-widest">
+                Special Archive Section
+            </div>
+
+            <div class="flex items-center gap-3 mb-4">
+                <i class="fa-solid fa-fire text-purple-400 text-xl"></i>
+                <h2 class="text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400">
+                    СПЭШЛ колонка для RusUTAU
+                </h2>
+            </div>
+
+            <div class="space-y-3 text-slate-300 text-sm md:text-base leading-relaxed mb-6 font-sans">
+                <p class="font-medium text-purple-200">
+                    ** — Я помню тебя, <span class="text-pink-400 font-semibold">Dd Nocebo</span> (aka <span class="text-pink-400 font-semibold">Маргарита Баум</span>, aka <span class="text-pink-400 font-semibold">Nia Skretch</span>)!
+                </p>
+                <p class="text-slate-400">
+                    Я никоим образом не знаком с Imocreator и никоим случаем не являюсь ее подсоской.
+                </p>
+                <p class="text-slate-400">
+                    Кактуса у меня в жопе нет и не являюсь ни псом, ни пидорасом!
+                </p>
+                <p class="font-bold text-amber-300 text-base md:text-lg">
+                    ЕБАТЬ ЭТО ЧЕ, МАРГАРИТА БАУМ?!))))))
+                </p>
+            </div>
+
+            <!-- VK Video Embedded Responsively -->
+            <div class="relative w-full aspect-video rounded-xl overflow-hidden border border-purple-800/40 shadow-inner bg-black">
+                <iframe 
+                    class="absolute top-0 left-0 w-full h-full" 
+                    src="//vk.com/video_ext.php?oid=-23742946&id=456242969&hash=ad28de8fcf148d37&hd=1" 
+                    frameborder="0" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </section>
+
+        <!-- Meta Timestamps & Info -->
+        <div class="bg-kagaminep-card/40 border border-slate-800/80 rounded-xl p-4 text-center text-xs text-slate-400 mb-8 space-y-1">
+            <p>
+                <i class="fa-regular fa-calendar-check text-kagaminep-yellow mr-1"></i>
+                <span class="text-slate-300">Правила опубликованы:</span> 26.06.2018 &nbsp;|&nbsp; 
+                <span class="text-slate-300">Вступили в силу:</span> 26.06.2018 &nbsp;|&nbsp; 
+                <span class="text-slate-300 font-medium">Обновлено:</span> <span class="text-kagaminep-yellow font-semibold">17.04.2026</span>
+            </p>
+        </div>
+
     </div>
-    <br>
-    <p class="rules"><i>Правила опубликованы: 26.06.2018, Вступили в силу: 26.06.2018; Обновлено: 17.04.2026</i></p>
-    <p class="HostedOnGitHub">Хостинг предоставлен GitHub Pages</p>
-    <p class="copyright">Copyright (C) KagamineP 2017 - 2026 Все права защищены!</p>
+
+    <!-- Footer Section -->
+    <footer class="border-t border-slate-800/80 bg-kagaminep-card/80 py-6 text-center text-xs text-slate-500">
+        <div class="max-w-4xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-3">
+            
+            <div class="flex items-center gap-2">
+                <i class="fa-brands fa-github text-slate-400 text-sm"></i>
+                <span>Хостинг предоставлен <a href="https://pages.github.com/" target="_blank" rel="noopener" class="text-slate-400 hover:text-kagaminep-yellow transition-colors underline">GitHub Pages</a></span>
+            </div>
+
+            <div>
+                Copyright &copy; <span class="text-slate-300 font-medium">KagamineP</span> 2017 - 2026. Все права защищены!
+            </div>
+
+        </div>
+    </footer>
+
+    <script>
+        // Copy link functionality if user wants to copy page link
+        console.log("KagamineP DM Rules Page loaded.");
+    </script>
 </body>
 </html>
